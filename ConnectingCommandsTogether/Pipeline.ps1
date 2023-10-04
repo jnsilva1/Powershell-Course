@@ -1,0 +1,1 @@
+Get-Process | Select-Object -Property Name, @{name="procid";expression={$_.Id}}
